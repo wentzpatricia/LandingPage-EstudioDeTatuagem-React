@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #191919;
+  color: #f2f2f2;
+  min-height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+ul,
+nav,
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+}
